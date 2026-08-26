@@ -20,14 +20,10 @@ Instead of constantly checking provider dashboards (like OpenRouter's activity p
 
 You can install this directly through the SillyTavern interface:
 
-1. Open SillyTavern and go to the **Extensions** menu (the plug icon).
+1. Open SillyTavern and navigate to the **Extensions** menu (the block icon).
 2. Click on **Install Extension**.
-3. Paste the URL of this repository:
-   ```text
-https://github.com/Arczium/ST-Cache-Monitor
-```
-4. Click **Save** and wait for the installation to finish.
-5. Refresh your SillyTavern tab (F5).
+3. Paste the repository link: [https://github.com/Arczium/ST-Cache-Monitor](https://github.com/Arczium/ST-Cache-Monitor) and click install.
+4. Refresh SillyTavern and configure the settings in the Extensions menu..
 
 ## ⚙️ Settings / Configuration
 
