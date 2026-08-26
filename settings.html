@@ -1,0 +1,45 @@
+<div class="inline-drawer">
+    <div class="inline-drawer-toggle inline-drawer-header">
+        <b>Cache Monitor</b>
+        <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+    </div>
+    <div class="inline-drawer-content" style="font-size: 14px;">
+        
+        <!-- Master Switch -->
+        <div style="margin-bottom: 10px;">
+            <label class="checkbox_label" for="cachemon_enabled">
+                <input id="cachemon_enabled" type="checkbox" checked>
+                Enable Cache Monitoring
+            </label>
+        </div>
+        
+        <!-- Notifications Switch -->
+        <div style="margin-bottom: 10px;">
+            <label class="checkbox_label" for="cachemon_alerts_enabled">
+                <input id="cachemon_alerts_enabled" type="checkbox" checked>
+                Show Warning Notifications
+            </label>
+        </div>
+        
+        <hr>
+
+        <!-- History Size -->
+        <div style="margin-top: 10px;">
+            <label for="cachemon_history_size">Message History Size (for average):</label>
+            <input id="cachemon_history_size" class="text_pole" type="number" min="1" max="50" step="1" value="5">
+            <div style="margin-top: 5px; opacity: 0.7;">
+                <small><i>How many recent messages to calculate the average hit rate from.</i></small>
+            </div>
+        </div>
+
+        <!-- Warning Threshold -->
+        <div style="margin-top: 10px;">
+            <label for="cachemon_threshold">Warning Threshold (%):</label>
+            <input id="cachemon_threshold" class="text_pole" type="number" min="0" max="100" step="1" value="50">
+            <div style="margin-top: 5px; opacity: 0.7;">
+                <small><i>Alerts you if the rolling average drops below this percentage.</i></small>
+            </div>
+        </div>
+
+    </div>
+</div>

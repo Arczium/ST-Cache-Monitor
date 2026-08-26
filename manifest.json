@@ -1,0 +1,12 @@
+{
+    "display_name": "Cache-Monitor",
+    "version": "0.1.0",
+    "description": "Monitors API prompt caching hit rates and warns you when efficiency drops below a custom threshold.",
+    "author": "Arczium",
+    "homePage": "https://github.com/Arczium/ST-Cache-Monitor",
+    "js": "index.js",
+    "loading_order": 110,
+    "auto_update": true,
+    "requires": [],
+    "optional": []
+}
