@@ -129,6 +129,9 @@ function updateRollingAverage(newHitRate) {
             );
             
             console.log(`[Cache Monitor] ⚠️ Alert triggered!`);
+            // Reset the array so it waits X messages before alerting again
+            cacheHistory = [];
+            console.log(`[Cache Monitor] History reset to prevent alert spam.`);
         }
     }
 }
